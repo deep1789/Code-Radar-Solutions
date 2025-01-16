@@ -2,6 +2,6 @@
 
 int main() {
     int a;
-    printf("%u",&a);
+    printf("%ud",&a);
     return 0;
 }
