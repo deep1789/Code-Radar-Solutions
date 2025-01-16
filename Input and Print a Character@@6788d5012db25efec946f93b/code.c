@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a;
-    printf("%u",&a);
+    int a=1022;
+    printf("%u",*a);
     return 0;
 }
