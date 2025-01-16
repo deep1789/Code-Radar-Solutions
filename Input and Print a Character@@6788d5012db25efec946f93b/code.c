@@ -2,6 +2,6 @@
 
 int main() {
     int a=1022;
-    printf("%d",*a);
+    printf("%d",*(&a));
     return 0;
 }
