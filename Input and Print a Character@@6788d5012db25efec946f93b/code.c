@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a=1022;
-    printf("%d",*(&a));
+    char c;
+    scanf("%c",&ch);
+    printf("You entered: ",ch);
+
     return 0;
 }
