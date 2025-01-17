@@ -4,10 +4,8 @@
 
 int main() {
     int a,b,c;
-    float res;
     scanf("%d%d%d",&a,&b,&c);
-    
 
-    printf("%.2f", (a+b+c)/3);
+    printf("Average: %.2f",(a+b+c)/3);
     return 0;
 }
