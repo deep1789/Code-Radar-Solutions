@@ -14,7 +14,7 @@ int main() {
     }
     else if(x>=48&&x<=58)
     {
-        printf(Digit);
+        printf("Digit");
     }
     
     else{
