@@ -12,9 +12,11 @@ int main() {
     {
         printf("Consonant");
     }
+    
     else{
         printf("Special Character");   
          }
+         printf("%d",x);
         return 0;
 }
     
