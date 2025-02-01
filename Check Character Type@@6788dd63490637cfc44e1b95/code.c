@@ -8,7 +8,7 @@ int main() {
     {
         printf("Vowel");
     }
-    else if((a>=65&&a<=90) || (a>=97&&a<=122))
+    else if((x>=65&&x<=90)||(x>=97&&x<=122))
     {
         printf("Consonant");
     }
