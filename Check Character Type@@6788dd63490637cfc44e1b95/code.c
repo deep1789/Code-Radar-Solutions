@@ -12,11 +12,15 @@ int main() {
     {
         printf("Consonant");
     }
+    else if(x>=48&&x<=58)
+    {
+        printf(Digit);
+    }
     
     else{
         printf("Special Character");   
          }
-         printf("%d",x);
+         
         return 0;
 }
     
