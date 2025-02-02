@@ -31,7 +31,7 @@ int main() {
         {
             if(y!=0)
             {
-            printf("%d",x*y);
+            printf("%d",x/y);
             }
             break;
 
