@@ -6,7 +6,7 @@ int main() {
     float f;
     char ch;
     scanf("%d%d",&x,&y);
-    scanf(" %c",&ch);
+    //scanf(" %c",&ch);
     scanf("%f",3.14);
 
     switch(ch)
