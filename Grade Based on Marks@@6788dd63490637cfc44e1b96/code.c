@@ -15,12 +15,12 @@ int main() {
         printf("B");
 
     }
-    if(marks>=70)
+    else if(marks>=70)
     {
         printf("C");
 
     }
-    if(marks>=60)
+    else if(marks>=60)
     {
         printf("D");
 
@@ -30,7 +30,5 @@ int main() {
         printf("F");
 
     }
-    
-
     return 0;
 }
