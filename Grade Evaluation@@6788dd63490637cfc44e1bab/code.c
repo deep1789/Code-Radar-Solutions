@@ -3,9 +3,11 @@
 
 int main() {
     int x,y;
+    float f;
     char ch;
     scanf("%d%d",&x,&y);
     scanf(" %c",&ch);
+    scanf("%f",3.14);
 
     switch(ch)
     {
