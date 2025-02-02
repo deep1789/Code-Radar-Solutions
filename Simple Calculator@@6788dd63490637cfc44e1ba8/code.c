@@ -27,9 +27,18 @@ int main() {
             break;
 
         }
+        case '*':
+        {
+            if(y!=0)
+            {
+            printf("%d",x*y);
+            }
+            break;
+
+        }
         default:
         {
-            printf("Invalid");
+            printf("error");
         }
 
     }
