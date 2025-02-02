@@ -12,7 +12,7 @@ int main() {
     }
     else if((s1==s2)||(s1==s3)||(s3==s2))
     {
-        printf("Isoceles");
+        printf("Isosceles");
     }
     else{
         printf("Scalene");
