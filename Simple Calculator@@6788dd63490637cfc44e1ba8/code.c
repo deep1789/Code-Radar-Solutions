@@ -27,7 +27,7 @@ int main() {
             break;
 
         }
-        case '*':
+        case '/':
         {
             if(y!=0)
             {
