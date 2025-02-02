@@ -8,7 +8,39 @@ int main() {
     scanf(" %c",&ch);
     printf("%c",ch);
 
+    switch(ch)
+    {
+        case '+':
+        {
+            printf("%d",x+y);
+            break;
+
+        }
+        case '-':
+        {
+            printf("%d",x-y);
+            break;
+
+        }
+        case '*':
+        {
+            printf("%d",x*y);
+            break;
+
+        }
+        case '/':
+        {
+            printf("%d",x/y);
+            break;
+
+        }
+        default:
+        {
+            printf("Invalid");
+        }
+
     }
 
 
     
+}
