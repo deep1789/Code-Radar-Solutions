@@ -1,45 +1,38 @@
 #include <stdio.h>
 
-
 int main() {
-    int x,y;
+    int x, y;
     char ch;
-    scanf("%d%d",&x,&y);
-    scanf(" %c",&ch);
+    
+    // Reading inputs
+    scanf("%d%d", &x, &y);
+    scanf(" %c", &ch);  // Fixed input issue by adding a space before %c
+    
+    // Displaying the operator
+    printf("%c\n", ch);
 
-    switch(ch)
-    {
+    // Performing operations based on the operator
+    switch (ch) {
         case '+':
-        {
-            printf("%d",x+y);
+            printf("%d\n", x + y);
             break;
-
-        }
         case '-':
-        {
-            printf("%d",x-y);
+            printf("%d\n", x - y);
             break;
-
-        }
         case '*':
-        {
-            printf("%d",x*y);
+            printf("%d\n", x * y);
             break;
-
-        }
         case '/':
-        {
-            printf("%d",x/y);
+            // Avoid division by zero
+            if (y != 0) {
+                printf("%d\n", x / y);
+            } else {
+                printf("Division by zero is not allowed.\n");
+            }
             break;
-
-        }
         default:
-        {
-            printf("Invalid");
-        }
-
+            printf("Invalid operator\n");
     }
 
-
-    
+    return 0;
 }
