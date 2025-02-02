@@ -13,6 +13,8 @@ int main() {
     {
         printf("Negative");
     }
-    else{printf("Zero")};
+    else{
+        printf("Zero");
+    }
 return 0;
 }
