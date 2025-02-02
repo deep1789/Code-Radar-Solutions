@@ -6,7 +6,6 @@ int main() {
     char ch;
     scanf("%d%d",&x,&y);
     scanf(" %c",&ch);
-    printf("%c",ch);
 
     switch(ch)
     {
@@ -25,12 +24,6 @@ int main() {
         case '*':
         {
             printf("%d",x*y);
-            break;
-
-        }
-        case '/':
-        {
-            printf("%d",x/y);
             break;
 
         }
