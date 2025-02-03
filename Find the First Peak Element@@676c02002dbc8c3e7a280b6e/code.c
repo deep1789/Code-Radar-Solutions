@@ -27,7 +27,13 @@ int main() {
 
     if(flag==0)
     {
+            if(arr[n-1]!=arr[n])
+            {
             printf("%d",arr[n-1]);
+            }
+            else{
+                printf("-1")
+            }
         }
 
         return 0;
