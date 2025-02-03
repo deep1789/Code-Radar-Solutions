@@ -17,15 +17,16 @@ int main() {
     else{
         for(i=1;i<n-1;i++)
         {
-            if(arr[i]>arr[i-1] && arr[i]>arr[i+1])
+            if((arr[i]>arr[i-1]) && (arr[i]>arr[i+1]))
             {
                 flag=1;
                 printf("%d",arr[i]);
+                break;
             }
         }
 
-        if(flag==0)
-        {
+    if(flag==0)
+    {
             printf("%d",arr[n-1]);
         }
 
