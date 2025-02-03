@@ -9,15 +9,15 @@ int main() {
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
-   /* while(k--)
+   while(k--)
     {
-    temp = a[n-1];
+    temp = arr[n-1];
 
     for(i=n-2;i>=0;i--)
     {
-        a[i+1] = a[i];
+        arr[i+1] = arr[i];
     }
-    a[0] = temp;
-    }*/
+    arr[0] = temp;
+    }
     return 0;
 }
