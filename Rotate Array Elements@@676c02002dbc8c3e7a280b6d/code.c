@@ -4,7 +4,7 @@ int main() {
 
     int arr[20],i,n,k,temp;
     scanf("%d",&n);
-    for(i=0;i<50;i++)
+    for(i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
     }
@@ -20,5 +20,4 @@ int main() {
     a[0] = temp;
     }
     return 0;
-
 }
