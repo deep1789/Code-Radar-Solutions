@@ -9,7 +9,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
     scanf("%d",&k);
-    while(k--)
+   /* while(k--)
     {
     temp = a[n-1];
 
@@ -18,6 +18,6 @@ int main() {
         a[i+1] = a[i];
     }
     a[0] = temp;
-    }
+    }*/
     return 0;
 }
