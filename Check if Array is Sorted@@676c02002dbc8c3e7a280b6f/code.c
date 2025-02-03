@@ -11,7 +11,7 @@ int main() {
 
     for(i=0;i<n-1;i++)
     {
-        if(a[i]>a[i+1])
+        if(arr[i]>arr[i+1])
         {
             flag=0;
             break;
