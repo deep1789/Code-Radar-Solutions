@@ -32,7 +32,7 @@ int main() {
             printf("%d",arr[n-1]);
             }
             else{
-                printf("-1")
+                printf("-1");
             }
         }
 
