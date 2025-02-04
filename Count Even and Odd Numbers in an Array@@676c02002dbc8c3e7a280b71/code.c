@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
 
     int arr[20],i,n,flag=0,evencount=0,oddcount=0;
@@ -11,12 +10,10 @@ int main() {
         {
             evencount++;
         }
-        if(arr[i]!==0)
+        if(arr[i]!=0)
         {
             oddcount++;
         }
     }
-
-
 return 0;
 }
