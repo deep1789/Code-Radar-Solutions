@@ -10,7 +10,7 @@ int main() {
         {
             evencount++;
         }
-        if(arr[i]!=0)
+        if(arr[i]%2!=0)
         {
             oddcount++;
         }
