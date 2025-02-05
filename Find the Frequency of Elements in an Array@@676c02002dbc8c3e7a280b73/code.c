@@ -15,7 +15,7 @@ int main() {
         arr2[arr[i]]++;
     }
 
-    for(i=0;i<n;i++)
+    for(i=0;i<1000;i++)
     {
         if(arr2[i]!=0)
         {
