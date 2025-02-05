@@ -13,7 +13,7 @@ int main() {
     {
         if(arr[i]>max_)
         {
-            prev = max_
+            prev = max_;
             max_ = arr[i];
         }
 
