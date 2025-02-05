@@ -19,7 +19,7 @@ int main() {
     {
         if(arr2[i]!=0)
         {
-            printf("%d %d",i,arr2[i]);
+            printf("%d %d\n",i,arr2[i]);
         }
 
     }
