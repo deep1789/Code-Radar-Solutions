@@ -9,7 +9,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
 
-    for(int i=0; i<n; i++)
+    for(i=0; i<n; i++)
     {
         max(arr[i], max_);
     }
