@@ -2,13 +2,19 @@
 
 int main() {
 
-    int arr[20],i,n,flag=0,max_,prev;
+    int arr[20],i,n,flag=0,max_=INT_MIN, prev;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
         scanf("%d",&arr[i]);
     }
 
+    for(int i=0; i<n; i++)
+    {
+        max(arr[i], max_);
+    }
+    printf("%d", max_);
+/*
     if(n==1)
     {
         printf("-1");
@@ -20,7 +26,7 @@ int main() {
     prev = arr[0];
     for(i=0;i<n;i++)
     {
-        if(arr[i]>max_)
+        if(arr[i]>max_ || )
         {
             flag=1;
             prev = max_;
@@ -39,6 +45,6 @@ int main() {
     }
     }
 
-
+*/
 return 0;
 }
