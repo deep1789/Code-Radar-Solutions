@@ -18,7 +18,7 @@ int main() {
 
     max_ = arr[0];
     prev = arr[0];
-    for(i=0;i<n;i++)
+    for(i=n-1;i>=0;i--)
     {
         if(arr[i]>max_)
         {
