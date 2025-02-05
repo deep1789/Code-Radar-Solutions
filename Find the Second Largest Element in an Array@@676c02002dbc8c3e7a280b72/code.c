@@ -16,9 +16,9 @@ int main() {
     else
     {
 
-    max_ = arr[n-1];
-    prev = arr[n-1];
-    for(i=n-1;i>=0;i--)
+    max_ = arr[0];
+    prev = arr[0];
+    for(i=0;i<n;i++)
     {
         if(arr[i]>max_)
         {
