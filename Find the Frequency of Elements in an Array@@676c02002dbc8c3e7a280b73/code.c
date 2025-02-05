@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-    void find_freq(int a[],i,n)
+    int find_freq(int a[],int i, int n)
     {
 
         int j,count_=0,ele;
@@ -45,10 +45,11 @@ int main() {
     
     for(i=0;i<n;i++)
     {
-        if(arr2[arr[i]]!=0)
+        if(arr2[arr[i]]!=1)
         {
+        	
             arr2[arr[i]] = 1;
-            frq = find_freq(arr,i);
+            int frq = find_freq(arr,i,n);
             printf("%d %d\n",arr[i],frq);
         }
 
