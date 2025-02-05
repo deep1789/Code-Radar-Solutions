@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 int main() {
 
@@ -12,7 +11,10 @@ int main() {
 
     for(i=0;i<n;i++)
     {
-        max(arr[i], max_);
+        if(arr[i] > max_)
+        {
+            
+        }
     }
     printf("%d", max_);
 /*
