@@ -22,13 +22,21 @@ int main() {
     {
         if(arr[i]>max_)
         {
+            flag=1;
             prev = max_;
             max_ = arr[i];
         }
 
     }
 
+    if(flag==1)
+    {
+
     printf("%d",prev);
+    }
+    else{
+        printf("-1");
+    }
     }
 
 
