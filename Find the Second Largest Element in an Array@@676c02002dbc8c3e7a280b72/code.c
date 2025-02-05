@@ -19,7 +19,15 @@ int main() {
 
     }
 
+    if(max_!=prev)
+    {
     printf("%d",prev);
+    }
+    else
+    {
+        printf("-1");
+    }
+
 
 
 return 0;
