@@ -2,7 +2,7 @@
 
 int main() {
 
-    int arr[20],i,n,flag=0,max_=INT_MIN, prev;
+    int arr[20],i,n,flag=0,max_=-1000, prev;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
@@ -13,7 +13,7 @@ int main() {
     {
         if(arr[i] > max_)
         {
-            
+
         }
     }
     printf("%d", max_);
