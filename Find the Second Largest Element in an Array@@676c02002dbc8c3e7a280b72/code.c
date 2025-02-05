@@ -9,6 +9,13 @@ int main() {
         scanf("%d",&arr[i]);
     }
 
+    if(n==1)
+    {
+        printf("-1");
+    }
+    else
+    {
+
     for(i=0;i<n;i++)
     {
         if(arr[i]>max_)
@@ -20,7 +27,7 @@ int main() {
     }
 
     printf("%d",prev);
-
+    }
 
 
 return 0;
