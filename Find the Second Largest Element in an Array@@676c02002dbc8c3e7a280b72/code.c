@@ -12,7 +12,7 @@ int main() {
 
     for(i=0;i<n;i++)
     {
-        if(a[i]>large)
+        if(a[i]>=large)
         {
             large = a[i];
             pos = i;
