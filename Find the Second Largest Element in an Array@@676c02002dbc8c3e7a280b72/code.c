@@ -2,52 +2,48 @@
 
 int main() {
 
-    int arr[20],i,n,flag=0,max_=-1000, prev;
+    int a[20],i,n,flag=0,large,slarge,pos;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-        scanf("%d",&arr[i]);
+        scanf("%d",&a[i]);
     }
+    large = a[0];
 
     for(i=0;i<n;i++)
     {
-        if(arr[i] > max_)
+        if(a[i]>large)
         {
-
+            large = a[i];
+            pos = i;
         }
+
     }
-    printf("%d", max_);
-/*
-    if(n==1)
+
+    a[pos] = 0;
+    slarge = a[0];
+
+    
+    for(i=0;i<n;i++)
     {
-        printf("-1");
+        if(a[i]>slarge && slarge!=large)
+        {
+            flag =1;
+            slarge = a[i];
+        }
+
+    }
+
+    if(flag==0)
+    {
+        print("-1");
     }
     else
     {
-
-    max_ = arr[0];
-    prev = arr[0];
-    for(i=0;i<n;i++)
-    {
-        if(arr[i]>max_ || )
-        {
-            flag=1;
-            prev = max_;
-            max_ = arr[i];
-        }
-
+        printf("%d",slarge);
     }
 
-    if(flag==1)
-    {
 
-    printf("%d",prev);
-    }
-    else{
-        printf("-1");
-    }
-    }
-
-*/
+  
 return 0;
 }
