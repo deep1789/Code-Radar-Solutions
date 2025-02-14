@@ -2,7 +2,7 @@
 
 int main() {
 
-    int a[20],i,n,flag=0,large,slarge,pos;
+    int a[20],i,n,flag=0,flag2=0,large,slarge,pos;
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
@@ -14,6 +14,7 @@ int main() {
     {
         if(a[i]>large)
         {
+        	flag2 = 1;
             large = a[i];
             pos = i;
         }
@@ -23,10 +24,9 @@ int main() {
     a[pos] = 0;
     slarge = a[0];
 
-    
     for(i=0;i<n;i++)
     {
-        if(a[i]>slarge && slarge!=large)
+        if(a[i]>slarge && slarge!=large && flag2!=0)
         {
             flag =1;
             slarge = a[i];
