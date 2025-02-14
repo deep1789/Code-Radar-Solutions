@@ -26,7 +26,7 @@ int main() {
 
     for(i=0;i<n;i++)
     {
-        if(a[i]>slarge && slarge!=large && flag2!=0)
+        if(a[i]>slarge && slarge!=large)
         {
             flag =1;
             slarge = a[i];
@@ -43,7 +43,5 @@ int main() {
         printf("%d",slarge);
     }
 
-
-  
 return 0;
 }
