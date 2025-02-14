@@ -14,7 +14,6 @@ int main() {
     {
         if(a[i]>large)
         {
-        	flag2 = 1;
             large = a[i];
             pos = i;
         }
@@ -26,7 +25,7 @@ int main() {
 
     for(i=0;i<n;i++)
     {
-        if((a[i]>slarge) && (slarge!=large) && (flag2==1))
+        if((a[i]>slarge) && (slarge!=large))
         {
             flag =1;
             slarge = a[i];
