@@ -26,7 +26,7 @@ int main() {
 
     for(i=0;i<n;i++)
     {
-        if(a[i]>slarge && slarge!=large)
+        if(a[i]>slarge && slarge!=large && (flag2==1))
         {
             flag =1;
             slarge = a[i];
