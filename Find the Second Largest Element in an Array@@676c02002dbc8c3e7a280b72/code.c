@@ -36,7 +36,7 @@ int main() {
 
     if(flag==0)
     {
-        print("-1");
+        printf("-1");
     }
     else
     {
