@@ -25,7 +25,7 @@ int main() {
 
     for(i=0;i<n;i++)
     {
-        if((a[i]>slarge) && (slarge!=large))
+        if((a[i]>=slarge) && (slarge!=large))
         {
             flag =1;
             slarge = a[i];
@@ -33,7 +33,7 @@ int main() {
 
     }
 
-    if(flag==0)
+    if(flag==0 || large==slarge)
     {
         printf("-1");
     }
