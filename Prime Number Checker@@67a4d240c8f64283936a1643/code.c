@@ -10,16 +10,16 @@ int isPrime(int n)
             break;
         }
 
+    }
+    
         if(flag==0)
         {
-            printf("1\n");
+            return 1;
         }
         else
         {
-            printf("0\n");
+            return 0;
         }
-    
-    }
 
 
 }
