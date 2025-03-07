@@ -12,7 +12,7 @@ int isPrime(int n)
 
     }
     
-        if(flag==0)
+        if(flag==0&&n!=1)
         {
             return 1;
         }
