@@ -1,0 +1,25 @@
+// Your code here...
+int isPrime(int n)
+{
+    int i, flag=0;
+    for(i=2;i<n;i++)
+    {
+        if(n%i==0)
+        {
+            flag=1;
+            break;
+        }
+
+        if(flag==0)
+        {
+            printf("1\n");
+        }
+        else
+        {
+            printf("0\n");
+        }
+    
+    }
+
+
+}
