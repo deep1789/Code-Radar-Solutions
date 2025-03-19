@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main(){
     int i=0;
-    for(i=1;i<500;i++)
+    for(i=97;i<122;i++)
     printf("%c%d\n",i,i);
     return 0;
 }
