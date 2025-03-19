@@ -3,6 +3,6 @@
 int main(){
     int i=0;
     for(i=1;i<50;i++)
-    printf("hello");
+    printf("hello\n");
     return 0;
 }
